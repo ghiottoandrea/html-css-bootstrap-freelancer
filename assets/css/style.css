@@ -5,55 +5,70 @@
     background-color: black;
 }
 
-.debug #jumbotron{
+.debug #jumbotron {
     background-color: lightgreen;
     /* height: 400px; */
 }
 
-.debug #portfolio{
+.debug #portfolio {
     background-color: lightgray;
 }
-.debug #about{
+
+.debug #about {
     height: 500px;
     background-color: lightgreen;
 }
 
-.debug #contact_me{
+.debug #contact_me {
     height: 400px;
     background-color: lightgray;
 }
 
-.debug #up_footer{
+.debug #up_footer {
     height: 300px;
     background-color: black;
 }
 
-.debug #bottom_footer{
+.debug #bottom_footer {
     height: 100px;
     background-color: lightskyblue;
 }
-.debug  .jumbo_debug{
+
+.debug .jumbo_debug {
     background-color: white;
     height: 300px;
     aspect-ratio: 1;
-    
+
 }
 
-.square{
-        /* height: 150px; */
-        aspect-ratio: 1;
-        background-color: white;
-        margin: 1rem;
-    }
+.square {
+    /* height: 150px; */
+    aspect-ratio: 1;
+    background-color: white;
+    margin: 1rem;
+}
+
+.little_square {
+    height: 150px;
+    aspect-ratio: 1;
+    background-color: aliceblue;
+}
 
 /* #endregion debug */
 
 /* #region common */
-#jumbotron{
+#jumbotron {
     display: flex;
     /* flex-direction: column; */
     padding: 3rem 0;
     justify-content: center;
     align-items: center;
 }
+
+#up_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* #endregion common */
