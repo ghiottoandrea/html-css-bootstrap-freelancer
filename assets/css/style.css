@@ -1,0 +1,59 @@
+/* #region debug */
+
+.debug header {
+    height: 80px;
+    background-color: black;
+}
+
+.debug #jumbotron{
+    background-color: lightgreen;
+    /* height: 400px; */
+}
+
+.debug #portfolio{
+    background-color: lightgray;
+}
+.debug #about{
+    height: 500px;
+    background-color: lightgreen;
+}
+
+.debug #contact_me{
+    height: 400px;
+    background-color: lightgray;
+}
+
+.debug #up_footer{
+    height: 300px;
+    background-color: black;
+}
+
+.debug #bottom_footer{
+    height: 100px;
+    background-color: lightskyblue;
+}
+.debug  .jumbo_debug{
+    background-color: white;
+    height: 300px;
+    aspect-ratio: 1;
+    
+}
+
+.square{
+        /* height: 150px; */
+        aspect-ratio: 1;
+        background-color: white;
+        margin: 1rem;
+    }
+
+/* #endregion debug */
+
+/* #region common */
+#jumbotron{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 3rem 0;
+    justify-content: center;
+    align-items: center;
+}
+/* #endregion common */
