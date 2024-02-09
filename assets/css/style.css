@@ -66,6 +66,9 @@
     text-align: center;
     padding: 2rem 0;
 }
+#contact_me{
+    padding: 2rem 0;
+}
 #up_footer {
     display: flex;
     justify-content: center;
@@ -122,9 +125,6 @@
 
 /* #endregion jumbotron */
 
-/* #region portfolio */
-/* #endregion portfolio */
-
 /* #region about */
 .text-about{
     text-align: left;
@@ -140,6 +140,13 @@
 /* #endregion about */
 
 /* #region contact me */
+.send{
+    text-decoration: none;
+    color: var(--boot-lighter);
+    background-color: var(--boot-secondary);
+    padding: 0.5rem 0.7rem;
+    border-radius: 10px;
+}
 /* #endregion contact me */
 
 /* #region footer */
