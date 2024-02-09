@@ -56,25 +56,38 @@
     background-color: var(--boot-secondary);
 }
 
-#portfolio{
+#portfolio {
     padding: 2rem 0;
     text-align: center;
 }
-#about{
+
+#about {
     background-color: var(--boot-secondary);
     color: var(--boot-lighter);
     text-align: center;
     padding: 2rem 0;
 }
-#contact_me{
+
+#contact_me {
     padding: 2rem 0;
 }
-#up_footer {
+
+#top_footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--boot-tertiary);
+    color: var(--boot-lighter);
+    text-align: center;
+    padding: 2rem 0;
 }
-
+#bottom_footer{
+    background-color: var(--boot-primary);
+    color: var(--boot-lighter);
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 12px;
+}
 /* #endregion common */
 
 
@@ -88,10 +101,12 @@
     --boot-tertiary: rgba(58, 84, 109, 1);
     --boot-lighter: white;
 }
-.container-small{
+
+.container-small {
     width: 60%;
     margin: auto;
 }
+
 .border-star {
     display: flex;
     align-items: center;
@@ -104,12 +119,14 @@
     background-color: var(--boot-lighter);
     border-radius: 30px;
 }
-.line-dark{
+
+.line-dark {
     width: 80px;
     height: 4px;
     background-color: black;
     border-radius: 30px;
 }
+
 .icon {
     padding: 0.5rem;
     text-align: center;
@@ -126,28 +143,51 @@
 /* #endregion jumbotron */
 
 /* #region about */
-.text-about{
+.text-about {
     text-align: left;
 }
-.download{
+
+.download {
     color: var(--boot-lighter);
     text-decoration: none;
     padding: 0.5rem;
     border: 1px solid var(--boot-lighter);
     border-radius: 10px;
-    
+
 }
+
 /* #endregion about */
 
 /* #region contact me */
-.send{
+.send {
     text-decoration: none;
     color: var(--boot-lighter);
     background-color: var(--boot-secondary);
     padding: 0.5rem 0.7rem;
     border-radius: 10px;
 }
+
 /* #endregion contact me */
 
 /* #region footer */
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social {
+    padding: 1rem;
+    font-size: 20px;
+    border: 1px solid var(--boot-lighter);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text_mark {
+    text-decoration: none;
+    color: var(--boot-secondary);
+}
+
 /* #endregion footer */
