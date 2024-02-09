@@ -60,7 +60,12 @@
     padding: 2rem 0;
     text-align: center;
 }
-
+#about{
+    background-color: var(--boot-secondary);
+    color: var(--boot-lighter);
+    text-align: center;
+    padding: 2rem 0;
+}
 #up_footer {
     display: flex;
     justify-content: center;
@@ -80,7 +85,10 @@
     --boot-tertiary: rgba(58, 84, 109, 1);
     --boot-lighter: white;
 }
-
+.container-small{
+    width: 60%;
+    margin: auto;
+}
 .border-star {
     display: flex;
     align-items: center;
@@ -118,6 +126,17 @@
 /* #endregion portfolio */
 
 /* #region about */
+.text-about{
+    text-align: left;
+}
+.download{
+    color: var(--boot-lighter);
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid var(--boot-lighter);
+    border-radius: 10px;
+    
+}
 /* #endregion about */
 
 /* #region contact me */
