@@ -132,7 +132,13 @@
     text-align: center;
     font-size: 30px;
 }
-
+.nav_icon{
+    color: lightgray;
+    font-size: 18px;
+    padding: 0 0.5rem;
+    border: 1px solid lightgray;
+    border-radius: 0.2rem;
+}
 /* #endregion utilites */
 
 /* #region jumbotron */
@@ -178,11 +184,16 @@
 }
 
 .social {
-    padding: 0.7rem;
+    padding: 0.8rem;
     font-size: 18px;
     border: 1px solid var(--boot-lighter);
     border-radius: 50%;
-    object-fit: cover;
+}
+.facebook{
+    padding: 0.5rem 0.9rem;
+    font-size: 18px;
+    border: 1px solid var(--boot-lighter);
+    border-radius: 50%;
 }
 
 .text_mark {
