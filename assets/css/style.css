@@ -1,12 +1,12 @@
 /* #region debug */
 
-.debug header {
+/* .debug header {
     height: 80px;
     background-color: black;
-}
+} */
 
 .debug #jumbotron {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     /* height: 400px; */
 }
 
@@ -57,12 +57,16 @@
 /* #endregion debug */
 
 /* #region common */
+#side_header{
+    background-color: var(--boot-primary);
+    color: var(--boot-lighter);
+}
+
 #jumbotron {
-    display: flex;
-    /* flex-direction: column; */
-    padding: 3rem 0;
-    justify-content: center;
-    align-items: center;
+    padding: 2rem 0;
+    color: var(--boot-lighter);
+    text-align: center;
+    background-color: var(--boot-secondary);
 }
 
 #up_footer {
@@ -72,3 +76,32 @@
 }
 
 /* #endregion common */
+
+  :root{
+    --boot-primary:rgba(44, 62, 80, 1);
+    --boot-secondary:rgba(26, 188, 156, 1);
+    --boot-tertiary:rgba(58, 84, 109, 1);
+    --boot-lighter:white;
+  }
+
+  .avatar{
+    width: 70%;
+  }
+  .border-star{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.line{
+    width: 80px;
+    height: 4px;
+    background-color: var(--boot-lighter);
+    border-radius: 30px;
+}
+
+.icon {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 30px;
+}
