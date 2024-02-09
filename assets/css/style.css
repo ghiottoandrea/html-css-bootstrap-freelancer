@@ -41,23 +41,10 @@
 
 }
 
-.square {
-    /* height: 150px; */
-    aspect-ratio: 1;
-    background-color: white;
-    margin: 1rem;
-}
-
-.little_square {
-    height: 150px;
-    aspect-ratio: 1;
-    background-color: aliceblue;
-}
-
 /* #endregion debug */
 
 /* #region common */
-#side_header{
+#side_header {
     background-color: var(--boot-primary);
     color: var(--boot-lighter);
 }
@@ -69,6 +56,11 @@
     background-color: var(--boot-secondary);
 }
 
+#portfolio{
+    padding: 2rem 0;
+    text-align: center;
+}
+
 #up_footer {
     display: flex;
     justify-content: center;
@@ -77,31 +69,59 @@
 
 /* #endregion common */
 
-  :root{
-    --boot-primary:rgba(44, 62, 80, 1);
-    --boot-secondary:rgba(26, 188, 156, 1);
-    --boot-tertiary:rgba(58, 84, 109, 1);
-    --boot-lighter:white;
-  }
 
-  .avatar{
-    width: 70%;
-  }
-  .border-star{
+
+
+/* #region utilites */
+
+:root {
+    --boot-primary: rgba(44, 62, 80, 1);
+    --boot-secondary: rgba(26, 188, 156, 1);
+    --boot-tertiary: rgba(58, 84, 109, 1);
+    --boot-lighter: white;
+}
+
+.border-star {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
 
-.line{
+.line-white {
     width: 80px;
     height: 4px;
     background-color: var(--boot-lighter);
     border-radius: 30px;
 }
-
+.line-dark{
+    width: 80px;
+    height: 4px;
+    background-color: black;
+    border-radius: 30px;
+}
 .icon {
     padding: 0.5rem;
     text-align: center;
     font-size: 30px;
 }
+
+/* #endregion utilites */
+
+/* #region jumbotron */
+.avatar {
+    width: 50%;
+}
+
+/* #endregion jumbotron */
+
+/* #region portfolio */
+/* #endregion portfolio */
+
+/* #region about */
+/* #endregion about */
+
+/* #region contact me */
+/* #endregion contact me */
+
+/* #region footer */
+/* #endregion footer */
